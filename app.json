@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "EnergiaAO",
+    "slug": "energiaao",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0E1A"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "ao.energia.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Used to show outages near your location."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0E1A"
+      },
+      "package": "ao.energia.app",
+      "permissions": [
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-location",
+      "expo-font"
+    ],
+    "scheme": "energiaao",
+    "extra": {
+      "apiUrl": "http://10.0.2.2:8000/api/v1"
+    }
+  }
+}

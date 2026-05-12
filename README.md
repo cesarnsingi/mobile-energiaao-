@@ -210,3 +210,49 @@ cd web && npx vercel --prod
 MIT — built for the people of Luanda 🇦🇴
 
 *EnergiaAO is an independent community project, not affiliated with ENDE.*
+
+
+EXTRA:
+
+Meso
+
+Protecting Africa’s critical infrastructure
+
+Energia AO
+
+Inspired by the impact of EskomSePush
+, a free community platform that helps South Africans plan their lives around scheduled power outages (load shedding).
+
+Technologies Used
+Flutter
+Google Cloud
+Python
+Kubernetes (GKE/kind)
+Prometheus
+Varnish
+Serverless architecture
+Firebase / Firestore
+SlackOps
+
+I created this application because of the electricity challenges we face in Angola.
+
+Know when the power will go out. Prepare in advance.
+
+A full-stack mobile application that helps residents of Luanda, Angola stay informed about scheduled and unscheduled power outages.
+
+How It Works
+
+The application gathers information about power outages and sends alerts to users.
+
+People select their area and receive notifications whenever there are scheduled outages or important updates, allowing them to prepare in advance.
+
+Why Is This Important in Everyday Life?
+Answering the 3 key questions:
+The application was created to help people in Luanda know in advance about electricity outages.
+This allows better daily planning, protection of electronic equipment, and reduces the impact on work, studies, and daily routines.
+It is not only about psychological preparation, but about providing useful information so people can plan ahead and make better decisions.
+Sources of Information
+Schedules and announcements from ENDE (National Electricity Distribution Company)
+Municipal and provincial energy updates (Luanda, Benguela, Huíla, etc.)
+Social media and press announcements (Facebook pages, PDFs, radio announcements)
+Community reports (extremely important in Angola)
